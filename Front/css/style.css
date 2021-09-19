@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_itens {
+    padding-top: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #08021E;
+    z-index: 3;
+    height: 10vh;
+}
+
+#logo-img {
+    width: 300px;
+   
+}
+
+#banner-principal {
+    display: flex;
+    height: calc(100vh - 70px);
+    background-image: url('../img/Banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    align-items: center;
+}
+
+#banner-principal h1 {
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+#texto-principal {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#menu li {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 5px;
+}
+
+#navegacao {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 50vh; */
+}
+
+.pesquisa {
+    padding-left: 10vw;
+    padding-bottom: 2vh;
+}
+
+.col-md-3 {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.col-md-3 img {
+    width: 100%;
+    height: auto;
+}
+
+body .carousel-indicators li {
+    background-color: #8750B1;
+}
+
+body .carousel-indicators {
+    bottom: 0;
+}
+
+body .carousel-control-prev-icon, body .carousel-control-next-icon {
+    background-color: #8750B1;
+}
+
+body .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+footer {
+    background:#08021E;
+    margin-top: 8vh;
+    height: 5vh;
+    
+}
+    
+.copyright{
+    text-align: center;
+    color: #ffff;
+}
+
+span {
+    font-size: 5vh;
+    color: #8750B1;
+}
+
+h2{
+    text-align: center;
+}
+
+h5{
+    margin-left: 4vh;
+    font-size: 2vh;
+}
+
+form{
+    margin-bottom: 8.8vh;
+}
+
+#btn-form{
+    font-size: 2vh;
+    height: 5vh !important;
+    width: 10vw !important;
+    margin-left: 23vh;
+    margin-top: 5vh;
+}
+
+.subtitle-form{
+    text-align: center;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+#line{
+    margin-left: 10vh;
+}
+
+/* ATENDIMENTO */
+#localidade{
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+#mapa{
+   margin-left: auto;
+   margin-bottom: 15.3vh;
+}
+
+#txt-atendimento{
+    margin-top: 15vh;
+    font-size: smaller;
+}
