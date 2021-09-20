@@ -8,11 +8,11 @@ Site que contém uma listagem de filmes que ao clicar na imagem do filme a sua e
 
 <h2>📌Pré-requisitos para visualizar o projeto:</h2>
 
-<h2>🔧Tecnologias utilizadas:</h2>
+<h2>🛠Tecnologias utilizadas:</h2>
 ✔️ HTML
 ✔️ CSS
-✔️ 
-✔️
-✔️
+✔️ Mysql
+✔️ Nodejs
+
 
 
